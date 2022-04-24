@@ -1,0 +1,12 @@
+[package]
+name = "gm_dns"
+authors = ["Earu"]
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+gmod = { version = "*", default-features = false, features = ["gmcl"] }
+trust-dns-resolver = "0.21.2"
