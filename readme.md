@@ -13,7 +13,7 @@ Getting a list of hostnames associated with an IP:
 ```lua
 require("dns")
 
-PrintTable(dns.Lookup("8.8.8.8")) -- will return a table of hostnames associated with the IP
+PrintTable(dns.ReverseLookup("8.8.8.8")) -- will return a table of hostnames associated with the IP
 ```
 
 ## Compiling
